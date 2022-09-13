@@ -9,7 +9,12 @@ export const Nav = (props: Props) => {
     const {selected, navlinks} = props;
     return(
         <nav>
-            <div className="logo"><a href="/">logo</a></div>
+            <div className="logo">
+                <Link to="/">
+                    <div>E-REPORT PLATFORM</div>
+                    <div className="small-logo-text">for FCT Corpers</div>
+                </Link>
+            </div>
             {navlinks ?
             <div>
                 <ul>
