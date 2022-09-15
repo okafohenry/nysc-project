@@ -8,7 +8,8 @@ export const Faq = () => {
         <>
             <Nav navlinks={true} selected="faq" />
             <main>
-                <section className="background">                    
+                <section className="background">  
+                    <div className="overlay"></div>                  
                     <div className="background-text-overlay">
                         <h1>Frequently Asked Questions</h1>
                     </div>

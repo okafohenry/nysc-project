@@ -39,6 +39,7 @@ nav{
     padding: 30px 4rem;
 
     .logo{
+        
         a{            
             color: $white;
             text-decoration: none;
@@ -71,7 +72,7 @@ nav{
 /**** MAIN ****/
 main{ 
     padding-bottom: 100px;
-
+    min-width: 300px;
     .background{
         height: 550px;
         width: 100%;
@@ -82,7 +83,7 @@ main{
             height: 550px;
             background: rgba(216, 216, 216, 0.404);
             position: absolute;
-            top: 100px;
+            top: 97px;
             z-index: 5;
         }
         .background-text-overlay{
@@ -99,7 +100,8 @@ main{
             //     font-size: 37px;
             //     line-height: 50px;
             // }
-            h2{                                
+            h2{     
+                font-family: Helvetica, sans-serif !important;                           
                 font-weight: 700;
                 font-size: 30px;
                 line-height: 38px;
@@ -118,9 +120,12 @@ main{
                     text-align: center;
                     text-decoration: none;
                     color:  $white;
-                    background: #F82D2D;
+                    background:  $btn-color;   //#F82D2D;
                     border-radius: 12px;
                     padding: 10px 70px;
+                    &:hover{
+                        background: $btn-hover;
+                    }
                 }
             }
         }
@@ -268,12 +273,14 @@ footer{
     main{
         .background{
             .overlay{
-                top: 88.5px;    
+                top: 92px;    
             }
             .background-text-overlay{
                 margin-top: 150px;
                 h2{
                     font-size: 25px;
+                    line-height: 30px;
+                    font-weight: 700;
                 }
                 p{
                     font-size: 18px;
