@@ -32,7 +32,7 @@ export const Faq = () => {
                                 aria-controls="panel1a-content"
                                 id="panel1a-header"
                                 >
-                                    <Typography>How do I go about my relocation?</Typography>
+                                    <Typography><strong>How do I go about my relocation?</strong></Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
@@ -46,7 +46,7 @@ export const Faq = () => {
                                 expandIcon={<ExpandMore />}
                                 aria-controls="panel1a-content"
                                 id="panel1a-header">
-                                    <Typography>How do I go about my relocation?</Typography>
+                                    <Typography><strong>How do I go about my relocation?</strong></Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
@@ -60,7 +60,7 @@ export const Faq = () => {
                                 expandIcon={<ExpandMore />}
                                 aria-controls="panel1a-content"
                                 id="panel1a-header">
-                                    <Typography>How do I go about my relocation?</Typography>
+                                    <Typography><strong>How do I go about my relocation?</strong></Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
@@ -74,7 +74,7 @@ export const Faq = () => {
                                 expandIcon={<ExpandMore />}
                                 aria-controls="panel1a-content"
                                 id="panel1a-header">
-                                    <Typography>How do I go about my relocation?</Typography>
+                                    <Typography><strong>How do I go about my relocation?</strong></Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
