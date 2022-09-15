@@ -6,6 +6,7 @@ export const Report = () => {
             <Nav navlinks={true} selected="home" />
             <main>
                 <section className="background">
+                    <div className="overlay"></div>
                     <div className="background-text-overlay">
                         <h2>Servicom strives to  Improve Service Excellence In Public Services.</h2>
                         <p>Are you a Corp Member in the FCT and want to file a report?</p>
