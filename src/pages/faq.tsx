@@ -36,7 +36,7 @@ export const Faq = () => {
                                 <AccordionDetails>
                                     <Typography>
                                         Nevertheless, corps members are given the opportunity to apply for relocation on marital or health grounds while in the orientation camps. Relocation is done electronically. After the camp relocation, all other relocations are carried out three (3) months after the orientation course.<br/><br/>
-                                        The corps members must apply online and the State Coordinators appropriately recommend online too before the relocations are effected. However, as a policy, all relocations stop six (6) months into the service year.
+                                        The corp members must apply online and the State Coordinators appropriately recommend online too before the relocations are effected. However, as a policy, all relocations stop six (6) months into the service year.
                                     </Typography>
                                 </AccordionDetails>
                             </Accordion>
