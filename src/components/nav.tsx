@@ -17,7 +17,7 @@ export const Nav = (props: Props) => {
             </div>
             {navlinks ?
             <div>
-                <ul>
+                <ul className="desktop-nav">
                     <li>
                         <Link to="/" className={selected === "faq"? "":"selected"}>Home</Link>
                     </li>

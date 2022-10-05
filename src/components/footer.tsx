@@ -2,7 +2,7 @@ export const Footer = () => {
     return(
         <footer>
             <div> 
-                All Rights Reerved. &copy; 2022 | <a href="inkedin.com/in/henry-okafor-854112112/">HOC</a>
+                All Rights Reserved. &copy; 2022 | <a href="inkedin.com/in/henry-okafor-854112112/">HOC</a>
             </div>
             <div>
                 <ul>

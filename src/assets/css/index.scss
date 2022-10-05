@@ -183,6 +183,16 @@ main{
                     cursor: pointer;
                 }
             }
+            .error-msg{
+                color: red;
+                margin-top: 0px;
+                font-size: 12px;
+            }
+            .success-msg{
+                color: rgb(22, 175, 22);
+                margin-top: 0px;
+                font-size: 12px;
+            }
         }
     }
 }
